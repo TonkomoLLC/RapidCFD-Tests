@@ -7,4 +7,5 @@ Test cases for RapidCFD
 
 - damBreak-rapidCFD. Dam Break test was inspired by [this](https://www.cfd-online.com/Forums/openfoam-installation/178078-comparison-openfoam-i7-xeon-32-cores-xeon-phi-knights-landing-tesla-k20m.html) CFD-Online posting by [ma-tri-x](https://www.cfd-online.com/Forums/members/ma-tri-x.html). Nvidia-smi output and the log file for the run are included. Test was stopped at ~0.402 seconds. For more details, see the README in the damBreak-rapidCFD folder.
 
+- sloshingTank3D.  Sloshing tank tutorial from OpenFOAM 2.3.x, with modified fvSchemes and fvSolution for adaptation to RapidCFD. Gridding (blockMesh) and setFields (e.g., in the Allrun script) needs to be done with OpenFOAM 2.3.x before running `interDyMFoam` with RapidCFD.
 

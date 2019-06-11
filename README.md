@@ -9,3 +9,5 @@ Test cases for RapidCFD
 
 - sloshingTank3D.  Sloshing tank tutorial from OpenFOAM 2.3.x, with modified fvSchemes and fvSolution for adaptation to RapidCFD. Gridding (blockMesh) and setFields (e.g., in the Allrun script) needs to be done with OpenFOAM 2.3.x before running `interDyMFoam` with RapidCFD.
 
+- pitzDaly. OpenFOAM tutorial for rhoPimpleFoam-LES. Use blockMesh from CPU based OpenFOAM, e.g., 2.3.x, to create the grid. Execute with rapidCFD's `rhoPimpleFoam`.
+

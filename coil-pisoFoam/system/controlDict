@@ -97,7 +97,7 @@ functions
             }
         );
     }
-
+/*
     surfaceSampling
     {
         // Sample near-wall velocity
@@ -131,7 +131,7 @@ functions
             }
         );
     }
-
+*/
    // #includeFunc scalarTransport
 }
 
